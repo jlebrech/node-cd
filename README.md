@@ -21,4 +21,4 @@ It can execute any script you want on your server: deployment, testing, etc.
 * **For GitHub**: Set your post-receive hook as described [here](https://help.github.com/articles/post-receive-hooks) with the url `http://yourserver.com:61440/github`
 * **For Bitbucket**:  Set your post-receive hook as described [here](https://confluence.atlassian.com/display/BITBUCKET/POST+hook+management) with the url `http://yourserver.com:61440/bitbucket`
 * Run the app
-	`WWW_PORT=61440 node node-cd.js`
+	`WWW_PORT=61440 node node_cd.js`
